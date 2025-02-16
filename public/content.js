@@ -1,5 +1,8 @@
 function addContent() {
     const rows = ['יום הולדת', 'שמח', 'ליאור',];
+    const greeting =  'לעוד הרבה שנים של בריאות, אהבה ושמחה';
+
+    document.getElementById('greeting').innerText = greeting;
 
     for (let i = 0; i < rows.length; i++) {
         const rowLetters = rows[i];
