@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
-/* Kaushan+Script, oregano, sail */
+@font-face {
+    font-family: Gan;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./ganclm_bold-webfont-xS0Z7dUm.ttf) format("truetype")
+}
+
+
+
+html {
+    font-family: Gan,sans-serif;
+
+}
 html, body, .container {
     height: 100%;
-    font-family: 'Kaushan Script', 'Sail', cursive;
+    /*font-family: 'Kaushan Script', 'Sail', cursive;*/
 }
 body {
     background: #e74;
@@ -86,7 +99,7 @@ div#sea {
     position: absolute;
     color: #fff;
     width: 100%;
-    content: "Click Me!";
+    content: "תלחצי עלי";
     left: 0;
     bottom: 0;
     font-size: 24px;
@@ -402,4 +415,4 @@ div#sea {
         right: 230px;
     }
 }
- 
+
